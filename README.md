@@ -13,6 +13,8 @@ Doing so, vvvv will make sure that NuGets are always loaded from the project rep
 
 If the specific vvvv version can not be found on your computer, you need to download and install it manually. Feel free to change the vvvv version in the batch file, if the project requires a different version. Just make sure that everybody working on the project is informed about this step and downloads the right version of vvvv.
 
+Additionally, the `vvvv.bat` file can be used to set the environment without opening a default project file.
+
 ## Structure
 
 The template also contains some standard folders `assets` `nugets` `rnd` `vl` and an empty placeholder file inside of each if it is empty, so that it gets picked up by Git. The placeholder file can be safely deleted, also the folder itself if it is not to be used within the project.
